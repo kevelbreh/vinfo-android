@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Vinfo</string>
+
+    @BindView(R.id.make) TextView makeText;
+    @BindView(R.id.model) TextView modelText;
+    @BindView(R.id.year) TextView yearText;
+    @BindView(R.id.gears) TextView gearsText;
+    @BindView(R.id.fuel) TextView fuelText;
+    @BindView(R.id.shape) TextView shapeText;
+    @BindView(R.id.km) TextView kmText;
+
+    <string name="action_scan">Scan</string>
+    <string name="action_scan_mock">Or pretend to scan a mocked VIN</string>
+
+    <string name="vehicle_info_loading">Loading %s</string>
+
+    <string name="vehicle_make">Make: %s</string>
+    <string name="vehicle_model">Model: %s</string>
+    <string name="vehicle_year">Year: %s</string>
+    <string name="vehicle_gears">Gears: %s</string>
+    <string name="vehicle_fuel">Fuel Type: %s</string>
+    <string name="vehicle_shape">Shape: %s</string>
+    <string name="vehicle_km">Mileage: %s</string>
+</resources>
