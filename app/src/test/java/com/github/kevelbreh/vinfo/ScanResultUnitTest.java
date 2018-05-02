@@ -24,7 +24,7 @@ import static org.mockito.Mockito.never;
 import static org.mockito.Mockito.when;
 
 
-public class ExampleUnitTest {
+public class ScanResultUnitTest {
 
     @ClassRule
     public static final RxImmediateSchedulerRule rxImmediateSchedulerRule =
