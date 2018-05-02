@@ -67,11 +67,6 @@ public class ScanResultFragment extends Fragment implements ScanResultContract.V
         super.onViewCreated(view, savedInstanceState);
         ButterKnife.bind(this, view);
         presenter.onAttach(this);
-
-        toolbar.setNavigationIcon(R.drawable.ic_launcher_background);
-        toolbar.setNavigationOnClickListener(v -> {
-            getFragmentManager().popBackStack();
-        });
     }
 
     @Override
